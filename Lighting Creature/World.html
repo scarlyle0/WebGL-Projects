@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Blocky Animal</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <p>
+      <p id="counter">
+        XXX
+      </p>
+      Gather all of the gaurdians to open the pyramid! Run over them with your character.
+    </p>
+      Press X to delete blocks ontop of you, and C to create blocks ontop of you. (inside the map)
+    </p>
+      WASD to move, arrows keys, q and e, or mouse to move camera. Shift and Space to move up and down.
+    </p>
+      Object loader was implemented for the intricate objects (on timeshare there is only 1 imported for performance its inside the pyramid).
+    </p>
+      Looks worse on timeshare because foliage had to be removed and images were compressed because performance is so bad on timeshare.
+    </p>
+      <p>
+  </p>
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-cse160.js"></script>
+    <script src="classes/Triangle.js"></script>
+    <script src="classes/Cone.js"></script>
+    <script src="classes/Cube.js"></script>
+    <script src="classes/Camera.js"></script>
+    <script src="classes/Object.js"></script>
+    <script src="World.js"></script>
+    <script src="Setup.js"></script>
+    <script src="Control.js"></script>
+    <script src="renderanimal.js"></script>
+    <script src="Maps.js"></script>
+
+
+  </body>
+</html>
